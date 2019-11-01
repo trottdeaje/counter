@@ -77,4 +77,4 @@ setInterval(function () {
         valCounter: counter
     })
 
-}, 1000)
+}, 5000)
