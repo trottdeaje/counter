@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <p style="font-size: 100px; text-align: center;" id="counter"></p>
+
+    <p id="class"></p>
+    <p id="instructor"></p>
+    <p id="actor"></p>
+    <p id="book"></p>
+    <!-- jquery -->
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- firebase -->
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-database.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyD34IoaORl5l3Cby5i8XrJ2USN19YiShSY",
+            authDomain: "yeeteef-4dd6d.firebaseapp.com",
+            databaseURL: "https://yeeteef-4dd6d.firebaseio.com",
+            projectId: "yeeteef-4dd6d",
+            storageBucket: "yeeteef-4dd6d.appspot.com",
+            messagingSenderId: "809065859617",
+            appId: "1:809065859617:web:38b46852352334ec19b160"
+        };
+
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+
+    <!-- my script -->
+    <script src="counter.js"></script>
+</body>
+
+</html>
